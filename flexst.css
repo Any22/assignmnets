@@ -1,0 +1,109 @@
+.mainflex-container
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+  }
+
+  .mainflex-container > div.hdr
+  {
+    background-color:#000000;
+    color: seashell;
+     padding: 10px; 
+    text-align: right;
+    width: 1270px;
+    /* border: solid; */
+    line-height: 50px;
+    font-size: 30px;
+  }
+  .mainflex-container > div.mbr
+  {
+    background-color:#ffffff;
+    color: #363636;
+    text-align: left;
+    width: 1270px;
+    /* border: solid; */
+    line-height: 60px;
+    font-size: 12px;
+    
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li 
+  {
+    float: left;
+  }
+  /* making my menu bar visibly good */
+  li a {
+    display: block;
+    font-size: medium;
+    padding: 6px; 
+  
+  }
+  .content
+  {
+    /* border-style: solid; */
+    /* color: red; */
+    display:flex ;
+    flex-direction: row;
+  }
+  .content>div.pic
+  {
+    /* background-image: url("pic.jpg"); */
+    
+    /* align-content:center; */
+    /* background-repeat: no-repeat;
+    background-color: #002055;
+    width: 100%;
+    /* border: solid;  */
+    /* color:yellow; */
+     height:auto;
+    /* font-size: 12px;  */
+  } 
+  .content>div.piccont
+  {
+      /* border-style: solid; */
+      color: white;
+      background-color:#002c74;
+      background-image: radial-gradient(ellipse 50% 70% at 50% 0,#002c74 20%,#001536);
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      width:635px ;
+      line-height: 70px;
+      padding: 50px;
+  }
+  h4
+  {
+    color:red;
+  }
+  .button {
+    background-color:grey;
+    border: none;
+    border-radius: 2%;
+    color: white;
+     padding: 15px 32px;  
+    text-align: center;
+    text-decoration:none; 
+     display: inline-block; 
+     margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1
+  {
+    font-size: 14px;
+  }
+  .button2
+  {
+    font-size: 14px;
+  }
+  footer
+  {
+    font-size: 10px;
+    text-align: center;
+  }
